@@ -8,7 +8,7 @@
 function nameSort(userName) {
   // Sort the letters of the user's name
   //Split the String - sort the array - convert back to string
-  var nameArray = userName.split('');
+  var nameArray = userName.toLowerCase().split('');
   var nameArraySort = nameArray.sort();
   var nameSorted = nameArraySort.join('');
 
